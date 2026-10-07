@@ -33,10 +33,10 @@ Clone straight into your Cinnamon extensions directory:
 
 ```bash
 git clone https://github.com/jpfarias/cinnamon-active-border.git \
-  ~/.local/share/cinnamon/extensions/active-window-border@local
+  ~/.local/share/cinnamon/extensions/active-window-border@jpfarias
 ```
 
-The directory name **must** be the extension UUID, `active-window-border@local`.
+The directory name **must** be the extension UUID, `active-window-border@jpfarias`.
 
 Then enable it:
 
@@ -48,7 +48,7 @@ No Cinnamon restart is required.
 ### Manual install
 
 Copy `extension.js`, `metadata.json`, and `settings-schema.json` into
-`~/.local/share/cinnamon/extensions/active-window-border@local/` and enable it as
+`~/.local/share/cinnamon/extensions/active-window-border@jpfarias/` and enable it as
 above.
 
 ## Configuration
@@ -74,7 +74,7 @@ The defaults match the
 2. Delete the extension directory:
 
 ```bash
-rm -rf ~/.local/share/cinnamon/extensions/active-window-border@local
+rm -rf ~/.local/share/cinnamon/extensions/active-window-border@jpfarias
 ```
 
 ## How it works
@@ -87,4 +87,4 @@ stacking in sync.
 
 ## License
 
-No license has been specified yet.
+[MIT](LICENSE) © Joao Paulo Farias

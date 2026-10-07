@@ -1,5 +1,5 @@
 {
-    "uuid": "active-window-border@local",
+    "uuid": "active-window-border@jpfarias",
     "name": "Active Window Border",
     "description": "Draws a colored border around the focused window, making the active window easy to identify. Works with all windows, including client-side-decorated apps (Nemo, xed, Chromium, Qt, Wine).",
     "version": 1,
